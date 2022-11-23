@@ -11,7 +11,7 @@
           </div>
         </b-card-text>
       </b-card>
-      <b-card class="item StatByRange text-center">
+      <b-card class="item StatByRange tednjsxt-center">
         <template #header>
           <h6 class="mb-0">공 색깔별 통계</h6>
         </template>
@@ -77,7 +77,7 @@ export default {
         datasets: [
           {
             label: '당첨 횟수',
-            backgroundColor: '#3EAE81',
+            backgroundColor: ["#FEC202", "#5C62AE", "#E51E1D", "#AAAAAA", "#3EAE81"],
             data: [350, 210, 503, 120, 450]
           }
         ]
@@ -85,11 +85,11 @@ export default {
     ],
     items_doughnut: [
       {
-        labels: ['1~9', '10~19', '20~29', '30~39', '40~45'],
+        labels: ['노랑(1~10)', '파랑(11~20)', '빨강(21~30)', '검정(31~40)', '녹색(41~45)'],
         datasets: [
           {
             label: '당첨 횟수',
-            backgroundColor: ["#F48FB1", "#AAAAAA", "#D81B60", "#1E88E5", "#FDD835"],
+            backgroundColor: ["#FEC202", "#5C62AE", "#E51E1D", "#AAAAAA", "#3EAE81"],
             data: [350, 210, 503, 120, 450]
           }
         ]

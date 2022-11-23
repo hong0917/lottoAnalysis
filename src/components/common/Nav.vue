@@ -16,7 +16,9 @@
     <b-collapse id="navbar-toggle-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
         <b-nav-item><router-link to="/">Dash board</router-link></b-nav-item>
-        <b-nav-item><router-link to="/StatByNum">번호별 통계</router-link></b-nav-item>
+        <b-nav-item><router-link to="/Winner">명예의 전당</router-link></b-nav-item>
+        <b-nav-item><router-link to="/nomalRecNum">일반번호 추첨기</router-link></b-nav-item>
+        <b-nav-item><router-link to="/AIRecNum">AI번호 추첨기</router-link></b-nav-item>
       </b-navbar-nav>
     </b-collapse>
     </b-navbar>

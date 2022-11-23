@@ -7,10 +7,12 @@ import store from './store'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 import common from './assets/css/common.css'
+import reset from './assets/css/reset.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(common)
+Vue.use(reset)
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
